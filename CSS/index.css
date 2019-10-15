@@ -1,52 +1,19 @@
+
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 html {
-  font-family: "Lucida Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
-}
-.dropdown {
-  z-index: 2;
-  position: absolute;
-  left: 25px;
-  cursor: pointer;
-}
-.dropdown .dropdown-button {
-  padding: 15px;
-  border: 3px solid #ffffff;
-  color: #ffffff;
-  font-size: 20px;
-  font-weight: bold;
-}
-.dropdown .dropdown-button:hover {
-  background-color: #be2530;
-}
-.dropdown .dropdown-content {
-  width: 100%;
-  position: absolute;
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 10px;
-  border: 2.5px solid #931d25;
-}
-.dropdown .dropdown-link {
-  width: 100%;
-  text-align: center;
-  padding: 15px 0;
-  font-size: 18px;
-  text-decoration: none;
-  color: #931d25;
-}
-.dropdown .dropdown-link:hover {
-  color: #ffffff;
-  background-color: #931d25;
-}
-.dropdown .dropdown-hidden {
-  display: none;
 }
 
 .body {
@@ -61,15 +28,20 @@ html {
 .topnav {
   display: flex;
   justify-content: space-evenly;
-  margin: 5px;
+  /* margin: 2px; */
   margin-top: 20px;
+  text-decoration: none;
+
 }
+
 
 .bottomnav {
   display: flex;
   justify-content: left;
   margin: 5px;
   margin-top: 20px;
+  text-decoration: none;
+
 }
 
 .button {
@@ -83,15 +55,19 @@ html {
   font-size: 16px;
   /* margin: 4px 2px; */
   cursor: pointer;
-}
-a {
-  display: block;
-  color: black;
-  padding: 8px 16px;
-  text-decoration: none;
-  /* border-style: solid; */
   border-radius: 7px;
   background-color: #fadada;
+  padding: 8px 16px;
+
+}
+a {
+  /* display:; */
+  color: black;
+  /* padding: 8px 16px; */
+  text-decoration: none;
+  /* border-style: solid; */
+  /* border-radius: 7px;
+  background-color: #fadada; */
 }
 /* a:hover {
   color: black;
@@ -100,32 +76,7 @@ a {
   /* border-radius: 7px;
   opacity: 0.5; */
 } */
-.box-title {
-  font-size: 2em;
-  margin: 1%;
-}
-.box-description {
-  font-size: 1em;
-  margin: 1%;
-}
-.sectionone {
-  border-style: solid;
-  margin: 5%;
-  background-color: orange;
-  border-radius: 7px;
-}
-.sectiontwo {
-  margin: 5%;
-  border-style: solid;
-  background-color: orange;
-  border-radius: 7px;
-}
-.all-in-one {
-  margin: 5%;
-  border-style: solid;
-  background-color: orange;
-  border-radius: 7px;
-}
+
 img {
   /* max-width: 100%; */
     min-width: 50%;
