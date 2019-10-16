@@ -38,6 +38,7 @@ color:white
 .body {
   margin: 25px;
   background-color: #a41313;
+  color: white;
 }
 
 .body {
@@ -91,6 +92,7 @@ a {
 }
 
 p {
+  margin: 10px;
   color:white;
   background-color: firebrick;
   opacity: 0.9;
